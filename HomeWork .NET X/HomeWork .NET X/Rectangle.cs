@@ -4,25 +4,16 @@ using System.Text;
 
 namespace HomeWork_.NET_X
 {
-    class Rectangle
+    public static class Rectangle
     {
-        public double left_up_X { get; set; }
-
-        public double left_up_Y { get; set; }
-
-        public double right_down_X { get; set; }
-
-        public double right_down_Y { get; set; }
-
-
-        public double GetSqaure()
+        public static double GetSqaure(double left_up_X, double left_up_Y, double right_down_X, double right_down_Y)
         {
             double a = right_down_X - left_up_X;
             double b = left_up_Y - right_down_Y;
             return a * b;
         }
 
-        public double GetPerimetr()
+        public static double GetPerimetr(double left_up_X, double left_up_Y, double right_down_X, double right_down_Y)
         {
             double a = right_down_X- left_up_X;
             double b = left_up_Y - right_down_Y;
