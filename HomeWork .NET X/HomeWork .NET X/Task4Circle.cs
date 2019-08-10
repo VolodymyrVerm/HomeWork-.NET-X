@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeWork_.NET_X
 {
-    public static class Circle
+    public static class Task4Circle
     {
         const double PI = 3.14;
 

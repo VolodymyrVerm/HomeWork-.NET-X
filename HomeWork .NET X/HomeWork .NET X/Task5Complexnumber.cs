@@ -4,42 +4,47 @@ using System.Text;
 
 namespace HomeWork_.NET_X
 {
-    class ComplexNumber
+    class Task5Complexnumber
     {
+        #region Properties
         public double real { get; set; }
 
         public double imaginary { get; set; }
+        #endregion
 
-        public ComplexNumber()
-        {
-           
+        #region Constructors
+        public Task5Complexnumber()
+        {         
         }
 
-        public ComplexNumber(double real, double imaginary)
+        public Task5Complexnumber(double real, double imaginary)
         {
             this.real = real;
             this.imaginary = imaginary;
         }
+        #endregion
 
-        public static ComplexNumber operator *(ComplexNumber first, ComplexNumber second)
+        #region Override operators
+        public static Task5Complexnumber operator *(Task5Complexnumber first, Task5Complexnumber second)
         {
             double real = first.real * second.real - first.imaginary * second.imaginary;
             double imaginary = first.real * second.imaginary + first.imaginary * second.real;
 
-            return new ComplexNumber(real,imaginary);
+            return new Task5Complexnumber(real,imaginary);
         }
 
-        public static ComplexNumber operator /(ComplexNumber first, ComplexNumber second)
+        public static Task5Complexnumber operator /(Task5Complexnumber first, Task5Complexnumber second)
         {
             double real = (first.real * second.real + first.imaginary * second.imaginary)/(Math.Pow(second.real,2)+ Math.Pow(second.imaginary, 2));
             double imaginary = (first.imaginary * second.real-first.real * second.imaginary) / (Math.Pow(second.real, 2) + Math.Pow(second.imaginary, 2));
 
-            return new ComplexNumber(real, imaginary);
+            return new Task5Complexnumber(real, imaginary);
         }
 
         public override string ToString()
         {
             return (String.Format("{0} + {1}i", real, imaginary));
         }
+        #endregion
     }
 }
