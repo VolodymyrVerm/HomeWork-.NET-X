@@ -4,8 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
     using Training.common.Interfaces;
-    using Training3.Training3.Task4;
-    using Training3.Training3.Task4.Interfaces;
+    using Work2.Tasks.Task4.Interfaces;
 
     public class Task:IRunnable
     {

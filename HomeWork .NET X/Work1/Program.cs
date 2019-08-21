@@ -1,6 +1,7 @@
-﻿using System;
-namespace HomeWork_.NET_X
+﻿namespace Work1
 {
+    using System;
+    using Work1.Tasks;
     using Training.common.Interfaces;
 
     class Program

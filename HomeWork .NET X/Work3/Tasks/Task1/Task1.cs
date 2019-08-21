@@ -7,7 +7,7 @@ namespace Work3.Tasks.Task1
 {
     public class Task1:IRunnable
     {
-        public List<Person> FillData()
+        public List<Person> FillAndReturnData()
         {
             List<Person> ListPerson = new List<Person>();
 
@@ -70,7 +70,8 @@ namespace Work3.Tasks.Task1
 
         public void Run()
         {
-            List<Person> ListPerson = FillData();
+            Console.WriteLine("--Task1--");
+            List<Person> ListPerson = FillAndReturnData();
 
             foreach(var i in ListPerson)
             {

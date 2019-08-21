@@ -1,10 +1,9 @@
-﻿namespace HomeWork_.NET_X
+﻿namespace Work1.Tasks
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
     using Training.common.Interfaces;
-    using HomeWork_.NET_X.Tasks;
 
     public class Task1Rectangle:IRunnable
     {

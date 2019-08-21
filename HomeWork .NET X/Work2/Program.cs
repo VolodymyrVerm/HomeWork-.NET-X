@@ -1,10 +1,12 @@
-﻿namespace HomeWork_.NET_X
+﻿
+namespace Work2
 {
     using System;
-    using Work2.Task3;
-    using HomeWork_.NET_X.Training3;
     using Training.common.Interfaces;
     using Work2.Tasks.Task4;
+    using Work2.Tasks;
+    using Work2.Tasks.Task3;
+
 
     class Program
     {

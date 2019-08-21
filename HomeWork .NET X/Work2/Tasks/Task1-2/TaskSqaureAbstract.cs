@@ -1,8 +1,6 @@
-﻿namespace HomeWork_.NET_X.Training3
+﻿namespace Work2.Tasks
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
     using Training.common.Interfaces;
 
     public class TaskSqaureAbstract:Task1FigureAbstract, IRunnable

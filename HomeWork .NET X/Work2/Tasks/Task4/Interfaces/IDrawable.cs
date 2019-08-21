@@ -1,4 +1,4 @@
-﻿namespace Training3.Training3.Task4.Interfaces
+﻿namespace Work2.Tasks.Task4.Interfaces
 {
     using System;
     using System.Collections.Generic;

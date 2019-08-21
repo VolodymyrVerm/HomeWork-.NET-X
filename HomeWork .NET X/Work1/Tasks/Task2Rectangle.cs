@@ -1,6 +1,5 @@
-﻿namespace HomeWork_.NET_X
+﻿namespace Work1.Tasks
 {
-    using HomeWork_.NET_X.Tasks;
     using System;
     using System.Collections.Generic;
     using System.Text;

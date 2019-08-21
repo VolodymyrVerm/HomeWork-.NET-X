@@ -1,4 +1,4 @@
-﻿namespace HomeWork_.NET_X.Tasks
+﻿namespace Work1.Tasks
 {
     using System;
     using System.Collections.Generic;

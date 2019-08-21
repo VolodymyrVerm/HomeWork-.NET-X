@@ -1,4 +1,4 @@
-﻿namespace HomeWork_.NET_X.Training3
+﻿namespace Work2.Tasks
 {
     using System;
     using System.Collections.Generic;

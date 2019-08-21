@@ -1,7 +1,9 @@
-﻿namespace Training3.Training3.Task4
+﻿
+namespace Work2.Tasks.Task4
 {
-    using global::Training3.Training3.Task4.Interfaces;
     using System;
+    using Work2.Tasks.Task4.Interfaces;
+
 
     public class Task4RectangleWithInterface:IDrawable
     {
