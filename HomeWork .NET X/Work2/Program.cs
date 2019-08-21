@@ -1,7 +1,7 @@
 ﻿namespace HomeWork_.NET_X
 {
     using System;
-    using global::Training3.Training3.Task3;
+    using Work2.Task3;
     using HomeWork_.NET_X.Training3;
     using Training.common.Interfaces;
     using Work2.Tasks.Task4;

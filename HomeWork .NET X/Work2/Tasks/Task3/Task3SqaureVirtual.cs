@@ -1,4 +1,4 @@
-﻿namespace Training3.Training3.Task3
+﻿namespace Work2.Task3
 {
     using System;
     using System.Collections.Generic;
